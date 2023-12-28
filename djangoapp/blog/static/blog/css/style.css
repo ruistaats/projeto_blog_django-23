@@ -156,6 +156,15 @@ input[type='search']::-webkit-search-results-decoration {
   -webkit-appearance: none;
 }
 
+img {
+  margin: 0 auto;
+  margin-inline: auto;
+}
+/*CodeMirror*/
+.CodeMirror {
+  height:auto !important;
+  font-size: var(--fs-smlst) !important;
+}
 /* Blog */
 body,
 html,
@@ -170,6 +179,7 @@ html,
 
 .main-content {
   flex-grow: 1;
+  
 }
 
 /* Sections */
@@ -316,6 +326,7 @@ html,
 /* Single Post */
 .single-post-content {
   padding-top: var(--spacing-smlst);
+  
 }
 
 .single-post-title,
